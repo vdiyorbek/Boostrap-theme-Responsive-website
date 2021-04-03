@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Responsive Websites</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+</head>
+<body>
+<!-- navigation -->
+<nav class="navbar bg-light navbar-light navbar-expand-lg sticky-top">
+    <div class="container">
+        <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end navigation -->
+
+<!-- image carousel -->
+<div id="carousel" class="carousel slide" data-ride=carousel data-intervel=500>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/carousel/1.jpg" class=w-100 alt="">
+        <div class="carousel-caption">
+            <div class="cantainer justify-content-end">
+                <div class="row">
+                    <div class="d-none d-md-block col-11-md col-lg-9 col-xl-8 bg-dark text-right">
+                        <h3 class="pb-3">Responsive website design</h3>
+                        <div class="border-top border-white mb-3 w-75 ml-auto"> </div>
+                        <p class="lead">
+                            Built with html5, css3 & the easy-to-use 12 column responsive bootstrap grid!
+                        </p>
+                        <a href="#" class="btn btn-primary btn-sm">Learn more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="img/carousel/2.jpg" class=w-100 alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="img/carousel/3.jpg" class=w-100 alt="">
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row">
+                    <div class="d-none d-md-block col-md-9 col-lg-7 bg-white text-left text-dark">
+                        <h3>Mobile friendly</h3>
+                        <div class="border-top border-dark w-75 my-1"> </div>
+                        <p class="lead">
+                            Built with the simple-to-use 12 column responsive CSS grid layout!
+                        </p>
+                        <a href="#" class="btn btn-light btn-md">
+                            Learn more..
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to='0' class='active'></li>
+        <li data-target="#carousel" data-slide-to='1'></li>
+        <li data-target="#carousel" data-slide-to='2'></li>
+    </ol>
+</div>
+</div>
+
+<!-- end image carousel -->
+<!-- social media -->
+<div id="social-media-sticky">
+    <div class="jumbotron sticky-top">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="d-none d-xl-block col-xl-6 pt-1">
+                    <h3>
+                        Connect with us on social media!
+                    </h3>
+                </div>
+                <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6 pt-1">
+                    <ul class="social">
+                        <li><a href="" target="_blank">
+                            <i class="fab fa-facebook" style='color:#3b5998;'></i>
+                        </a></li>
+                        <li><a href="" target="_blank">
+                            <i class="fab fa-twitter" style='color:#00aced;'></i>
+                        </a></li>
+                        <li><a href="" target="_blank">
+                            <i class="fab fa-instagram-square" ></i>
+                        </a></li>
+                        <li><a href="" target="_blank">
+                            <i class="fab fa-youtube" style='color:#c4302b;'></i>
+                        </a></li>
+                        <li><a href="" target="_blank">
+                            <i class="fab fa-linkedin" style='color:#0e76a8;'></i>
+                        </a></li>
+                        <li><a href="" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- end social media -->
+<!-- main page heading -->
+<div class="col-12 text-center mt-5">
+    <h1 class="display-4 pt-4">Complate website</h1>
+    <div class="border-top border-dark w-50 mx-auto my-3"></div>
+    <p class="lead">Built with HTML, CSS and Bootstrap v4</p>
+</div>
+<!-- end main page -->
+
+<!-- three column section -->
+<div class="container">
+    <div class="row justify-content-center my-5 text-center">
+        <div class="col-md-6 col-lg-4 py-3">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-square fa-stack-2x"></i>
+                <i class="fab fa-html5 fa-stack-1x fa-inverse text-danger"></i>
+            </span>
+            <p class="lead">
+                HTML5, the best for learning to code websites.
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-md">Learn more</a>
+        </div>
+        <div class="col-md-6 col-lg-4 py-3">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-square fa-stack-2x"></i>
+                <i class="fab fa-bootstrap fa-stack-1x fa-inverse" style='color:#563d7c'></i>
+            </span>
+            <p class="lead">
+                Boostrap, the best for learning to code websites.
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-md">Learn more</a>
+        </div>
+        <div class="col-md-6 col-lg-4 py-3">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-square fa-stack-2x"></i>
+                <i class="fab fa-css3-alt fa-stack-1x fa-inverse " style='color:#026db6'></i>
+            </span>
+            <p class="lead">
+                CSS3, the best for learning to code websites.
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-md">Learn more</a>
+        </div>
+    </div>
+</div>
+
+<!-- end column section -->
+<!-- border -->
+<div class="border-top border-dark w-100 mx-auto my-3">
+<div class="container mt-5">
+    <div class="row py-4">
+        <div class="col-lg-5 mb-4 my-lg-auto">
+             <h1 class="font-weight-bold mb-3">
+                 The Website Bundle Pack
+             </h1>
+             <p class="mb-4">
+                 Build with HTML5, CSS3 and the simple-to-use 12 column responsive CSS grid layout. Built with HTML5, CSS3 and the simple-to-use 12 column responsive CSS grid layout!
+             </p>
+             <a href="#" class="btn btn-outline-dark btn-lg">See the Bundle</a>
+        </div>
+        <div class="col-lg-7"><img src="img/tablet.png" class='w-100'></div>
+    </div>
+</div>
+</div>
+</div>
+<div class="fixed-background">
+    <div class="fixed-wrap">
+        <div class="fixed">
+        </div>
+    </div>
+</div>
+<div id="text-button-sticky">
+    <div class="jumbotron sticky-top" style='margin-bottom:2px'>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="d-none d-md-block col-md-8 col-xl-7 my-auto">
+                <h4>Responsive bundle pack of complate websites!</h4>
+            </div>
+            <div class="col-md-4 col-xl-3 pt-1 pt-md-2 pb-2">
+                <a href="#" class="btn btn-primary btn-md">Check out the websites</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <row class="justify-content-center my-5 text-center">
+        <div class="col-md-6 col-lg-4 my-4">
+            <h4 class="my-3">The Agency website</h4>
+            <img src="img/agency.png" class='w-100' alt="">
+            <p>Build with HTML5, CSS3 and the simple-to-use 12 column responsive CSS grid layout.</p>
+            <a href="#" class="btn btn-primary btn-md">See the design</a>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 my-4">
+            <h4 class="my-3">The Business website</h4>
+            <img src="img/business.png" class='w-100' alt="">
+            <p>Build with HTML5, CSS3 and the simple-to-use 12 column responsive CSS grid layout.</p>
+            <a href="#" class="btn btn-primary btn-md">See the design</a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 my-4">
+            <h4 class="my-3">The Parallax website</h4>
+            <img src="img/parallax.png" class='w-100' alt="">
+            <p>Build with HTML5, CSS3 and the simple-to-use 12 column responsive CSS grid layout.</p>
+            <a href="#" class="btn btn-primary btn-md">See the design</a>
+        </div>
+    </row>
+</div>
+
+<div class="border-top border-dark w-100 mx-auto my-3"></div>
+
+<div class="container my-5">
+    <div class="row py-4">
+        <div class="col-lg-4 mb-4 my-lg-auto">
+            <h1 class="font-weight-bold mb-3">
+                The Complete Responsive Websites
+            </h1>
+            <p class="mb-4">
+                Built with HTML5, CSS3 and the simple-to-use 12 column responsive css grid layout. Built with HTML5, CSS3 and the simple-to-use 12 column responsive css grid layout.
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-lg">See the bundle</a>
+        </div>
+        <div class="col-lg-8"><img src="img/responsive.png" class='w-100' alt=""></div>
+    </div>
+</div>
+
+<div class="jumbotron py-5 mb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+                <h4>
+                    Looking for quality, easy-to-use mobile-friendly website design?
+                </h4>
+            </div>
+            <div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+                <a href="#" class="btn btn-primary btn-lg">Visit us Today</a>
+            </div>
+        </div>
+    </div>
+</div>   
+
+<!-- start footer -->
+<footer class="bg-dark">
+    <div class="container">
+        <div class="row justify-content-center text-center text-light">
+            <div class="col-md-9">
+                <img src="img/logo-white.png" alt="">
+                <p>Built with HTML5, CSS3 and the simple-to-use 12 column responsive css grid layout.</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="bg-light">
+                <h5>Contact info</h5>
+                <hr class="bg-light">
+                <p><a href="tel:+555555555">555 555 555</a></p>
+                <p><a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                <p>100 Street name</p>
+                <p>City, State, 10000</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="bg-light">
+                <h5>Our Hours</h5>
+                <hr class="bg-light">
+                <p>Monday: 9am - 6pm</p>
+                <p>Saturday: 10am - 4pm</p>
+                <p>Sunday: closed</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="bg-light">
+                <h5>Service Area</h5>
+                <hr class="bg-light">
+                <p>City, State, 000000</p>
+                <p>City, State, 000000</p>
+                <p>City, State, 000000</p>
+                <p>City, State, 000000</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- Start Socket -->
+<div class="socket text-light text-center py-4">
+    <p>copy; <a href="#">Developed by vdiyorbek</a></p>
+</div>
+<!-- End Socket -->
+<!-- Script Source -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/all.min.js"></script>
+
+</body>
+</html>
